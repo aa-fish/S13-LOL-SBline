@@ -45,7 +45,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: pnpm install
-      - name: Build with ViteBuild
+      - name: Build with S13
         run: pnpm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
