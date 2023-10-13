@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/S13-LOL-SBline/',
+  base: '/s13-lol-sbline/',
   plugins: [
     vue(),
     vueJsx(),
